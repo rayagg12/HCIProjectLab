@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/main.css" rel="stylesheet"/>
+    <link href="css/register.css" rel="stylesheet"/>
+    <script src="js/signup.js" defer></script>
+    <title>Sign-Up Page</title>
+
+</head>
+<body>
+    <header>
+        <div class="header-content">
+          <img src="source/aimclap.jpg" alt="AimClab">
+          <h1>AimClab</h1>
+        </div>
+        <h2>Be Good at FPS Game</h2>
+    </header>
+    
+    <nav>
+    <button onclick="window.location.href='homepage.html'">Home</button>
+    <button onclick="window.location.href='leaderboard.html'">LeaderBoard</button>
+    <button onclick="window.location.href='store.html'">Store</button>
+    <button onclick="window.location.href='aboutus.html'">About Us</button>
+    <button onclick="window.location.href='#'">Sign-Up</button>
+    </nav>
+    <div class="bg">
+        <form id="form">
+            <h1>Sign-Up</h1>
+            <div class="form-component">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username"/>
+            </div>  
+            
+            <div class="form-component">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email"/>
+            </div>
+    
+            <div class="form-component">
+                <label for="password">Password</label>
+                <input type="text" name="password" id="password"/>
+            </div>
+    
+            <div class="form-component">
+                <label for="retype_password">Retype Password</label>
+                <input type="text" name="rtpass" id="rtpass"/>
+            </div>
+    
+            <div class="form-component">
+                <label for="DoB">Date of Birth</label>
+                <input type="date" name="dob" id="dob"/>
+            </div>
+    
+            <input type="submit" name="submit" id="submit"/>
+    
+        </form>
+    </div>
+    
+
+    <footer>
+        &copy; 2023 train your aim with AimClap. All Rights Reserved
+    </footer>
+</body>
+</html>
